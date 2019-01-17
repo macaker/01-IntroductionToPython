@@ -20,7 +20,7 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
 #         HINT: You will need to import the   math  module (library).
@@ -30,7 +30,10 @@ print(answer * 100)
 ###############################################################################
 
 import math
-math.77+cos(2.75)
+answer1=math.cos(2.75)
+answer2=print(answer1+77)
+answer3=math.sqrt(answer2)
+print(answer3)
 
 
 ###############################################################################
