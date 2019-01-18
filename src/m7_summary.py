@@ -2,10 +2,10 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Emily Macak.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
@@ -43,3 +43,18 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+b=rg.SimpleTurtle()
+b.pen=rg.Pen('blue',5)
+b.left(90)
+b.forward(200)
+b.pen_up()
+b.backward(240)
+b.right(90)
+b.forward(100)
+b.right(90)
+b.pen_down()
+b.pen=rg.Pen('green',10)
+b.forward(150)
+
+
