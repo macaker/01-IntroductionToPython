@@ -1,7 +1,6 @@
 
 answer = 2 ** 5
 print(answer * 100)
-
 ###############################################################################
 # DONE: 1.
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
@@ -30,10 +29,10 @@ print(answer * 100)
 ###############################################################################
 
 import math
-answer1=math.cos(2.75)
-answer2=print(answer1+77)
-answer3=math.sqrt(answer2)
-print(answer3)
+x=77+math.cos(2.75)
+y=math.sqrt(x)
+print(y)
+
 
 
 ###############################################################################
